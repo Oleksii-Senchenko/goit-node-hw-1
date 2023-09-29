@@ -22,6 +22,14 @@ const removeContact = async (id) => {
   return deleteContact || null;
 };
 
+
+
+
+
+
+
+
+/////////более сложный//////////////
 const addContact = async (name, email, phone) => {
   const contacts = await allContacts();
   const newContact = {
@@ -32,8 +40,24 @@ const addContact = async (name, email, phone) => {
   };
   contacts.push(newContact);
   await fs.writeFile(filePath, JSON.stringify(contacts, null, 2));
-  return newContact;
+  return newContact
 };
+
+
+///////////ПРОСТОЙ ВРИАНТ//////////
+// const addContact = async (data) => {
+//     const contacts = await allContacts();
+//     const newContact = {
+//         id: nanoid(),
+//         ...data,
+//     };
+//     contacts.push(newContact);
+//     await fs.writeFile(filePath, JSON.stringify(contacts));
+//     return newContact;
+// }
+
+
+
 module.exports = {
   allContacts,
   getContactById,
