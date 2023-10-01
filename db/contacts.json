@@ -54,24 +54,15 @@
     "phone": "(748) 206-2688"
   },
   {
-    "id": "A5RUjUY1b_LK7BBXmACEW",
-    "email": "Oleksii",
-    "phone": "bombombom"
+    "id": "V8UQqZ2Q3P4eMtHfZKKbW",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "1234567890"
   },
   {
-    "id": "cXEymMpMiLYI0ydFNbwHL"
-  },
-  {
-    "id": "XRTsA2NvqCGIud7y1LopT"
-  },
-  {
-    "id": "zRGex65UgdUpbrav87B8w",
-    "email": "Oleksii",
-    "phone": "bombombom"
-  },
-  {
-    "id": "Uoz1l0ibIK7wpdasmCQcq",
-    "email": "Oleksii",
-    "phone": "bombombom"
+    "id": "hmGygAZMXpE93PkPnMRGc",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "1234567890"
   }
 ]

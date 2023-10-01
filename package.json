@@ -5,12 +5,13 @@
   "main": "app.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commander": "^11.0.0",
     "fs": "^0.0.1-security",
     "nanoid": "^3.3.4"
   }
